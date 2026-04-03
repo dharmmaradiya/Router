@@ -1,0 +1,107 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #eef2f7, #f8f9fa);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Container */
+.container {
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+/* Inputs */
+.form-control,
+.form-select {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.4);
+}
+
+/* Button */
+.btn-primary {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: #6c63ff;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #5548e8;
+}
+
+/* Search & Sort */
+input[type="text"] {
+  border-radius: 10px;
+}
+
+/* Table */
+.table {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #6c63ff;
+  color: white;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+/* Image */
+.table img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Action Buttons */
+.btn-outline-danger {
+  border-radius: 8px;
+}
+
+.btn-outline-success {
+  border-radius: 8px;
+}
+
+/* Hover Effects */
+.table tbody tr:hover {
+  background-color: #f1f3ff;
+  transition: 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .w-50,
+  .w-25,
+  .w-75 {
+    width: 100% !important;
+  }
+
+  .table {
+    font-size: 12px;
+  }
+}
